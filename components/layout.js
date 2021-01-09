@@ -8,11 +8,11 @@ function Layout({ children }) {
         <title>Gokhan</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Navigation />
+      {/* <Navigation /> */}
       <main>
         {children}
       </main>
-      <footer>Design by Me</footer>
+      {/* <footer>Design by Me</footer> */}
     </div>
   )
 }
